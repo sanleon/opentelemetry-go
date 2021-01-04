@@ -29,6 +29,8 @@
 # unzip (for unpacking the archive), rsync (for copying back the
 # generated files).
 
+syntax = "proto3";
+
 PROTOC_VERSION := 3.14.0
 
 TOOLS_DIR                       := $(abspath ./.tools)
