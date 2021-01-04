@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+syntax = "proto3";
+
 EXAMPLES := $(shell ./get_main_pkgs.sh ./example)
 TOOLS_MOD_DIR := ./internal/tools
 
